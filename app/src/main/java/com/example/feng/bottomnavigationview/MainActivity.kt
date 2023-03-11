@@ -23,6 +23,7 @@ class MainActivity : AppCompatActivity() {
         val homeFragment = HomeFragment()
         val profileFragment = ProfileFragment()
         val calendarFragment = CalendarFragment()
+        val listFragment = ListFragment()
 
         setCurrentFragment(homeFragment)
 
@@ -32,6 +33,7 @@ class MainActivity : AppCompatActivity() {
                 R.id.myHomeMenuItem -> setCurrentFragment(homeFragment)
                 R.id.myProfileMenuItem -> setCurrentFragment(profileFragment)
                 R.id.myCalendarMenuItem -> setCurrentFragment(calendarFragment)
+                R.id.myListMenuItem -> setCurrentFragment(listFragment)
             }
             true
         })

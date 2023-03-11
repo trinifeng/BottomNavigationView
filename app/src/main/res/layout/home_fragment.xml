@@ -7,12 +7,13 @@
 
     <TextView
         android:id="@+id/my_text"
-        android:layout_width="402dp"
+        android:layout_width="0dp"
         android:layout_height="354dp"
-        android:layout_marginStart="172dp"
-        android:layout_marginEnd="181dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="4dp"
         android:gravity="center"
-        android:text="Welcome to the \nHome Fragment"
+        android:text="Welcome to the \nHome Fragment\n\nSelect other fragments to move around the app"
         android:textSize="34dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

@@ -5,16 +5,33 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/my_text"
-        android:layout_width="402dp"
-        android:layout_height="354dp"
-        android:layout_marginStart="172dp"
-        android:layout_marginEnd="181dp"
-        android:gravity="center"
-        android:text="Welcome to the \nList Fragment"
-        android:textSize="34dp"
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="0dp"
+        android:layout_height="181dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="122dp"
+        android:layout_marginEnd="65dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/radioButtonOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Item One" />
+
+        <RadioButton
+            android:id="@+id/radioButtonTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Item Two" />
+
+        <RadioButton
+            android:id="@+id/radioButtonThree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Item Three" />
+    </RadioGroup>
 </androidx.constraintlayout.widget.ConstraintLayout>
